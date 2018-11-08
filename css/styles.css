@@ -1,0 +1,106 @@
+@import 'fonts.css';
+@import 'form.css';
+@import 'images.css';
+@import 'tables.css';
+@import 'hidden.css';
+@import 'hamburger_menu.css';
+html, body {
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  voice-family: male;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(238, 238, 238);
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+nav {
+  height: 62px;
+}
+
+.container {
+  margin: 40px auto;
+  opacity: 0;
+  margin-top: -62px;
+  transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  padding: 20px 15px;
+  max-width: 1000px;
+  background-color: #ffffff;
+  min-height: 86%;
+}
+
+.wrapper {
+  display: table;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+audio {
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    border-radius: 20px;
+    padding: auto 25px;
+  }
+  #menuToggle {
+    position: fixed;
+  }
+  td {
+    padding: 1rem;
+  }
+  audio {
+    width: 400px;
+  }
+  #modal-img {
+    width: 80%;
+  }
+  #menu {
+    width: 360px;
+  }
+  .gallery-slides img {
+    display: inline-block;
+    width: 27%;
+    -webkit-filter: contrast(0.7);
+    filter: contrast(0.7);
+  }
+  .gallery-slides img.main {
+    width: 40%;
+    -webkit-filter: contrast(1);
+    filter: contrast(1);
+  }
+}
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+  }
+  nav {
+    display: none !important;
+  }
+  * {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+}

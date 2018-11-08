@@ -1,0 +1,58 @@
+p,  li {
+  color: #868686;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+td{
+  font: #616161;
+}
+
+label {
+  color: #f8f8f8;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+h1 {
+  color: #4b4b4b;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 4rem;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #202020;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 3.8rem;
+  margin: 0;
+  text-align: left;
+}
+
+a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #e6e6e6;
+}
+
+a:hover {
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+label{
+  color: #414040;
+}
+@media screen and (min-width: 800px) {
+  p, td, li, a {
+    font-size: 1.2rem;
+  }
+}

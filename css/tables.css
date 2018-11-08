@@ -1,0 +1,27 @@
+table, td {
+  border: 4px solid rgb(255, 255, 255);
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+td {
+  padding: 0.4rem;
+}
+
+table tr:hover {
+   border: 6px dashed rgb(73, 73, 73); 
+    background: #fc3; 
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #b9b8b8;
+}
+tr:nth-child(even) {
+  background: #f7f6f6;
+}

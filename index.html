@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>Home</title>
+</head>
+<body>
+
+<nav role="navigation">
+  <div id="menuToggle">
+    <input type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="subjects.html">Favorite school subjects</a></li>
+      <li><a href="computer_access.html"</li>
+      <li><a href="programming_languages.html">Programming languages skills</a></li>
+      <li><a href="computer_access.html"> Access to the computer</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="ai.html">Artificial Intelligence</a></li>
+      <li><a href="plans.html">Future plans</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </div>
+  </nav>
+
+  <figure id="modal">
+    <span id="modal-close">&times;</span>
+    <img id="modal-img" draggable="false">
+    <figcaption id="modal-caption"></figcaption>
+  </figure>
+    <section class="container">
+  <h1>Home</h1>
+      <article class="gallery wrapper">
+        <a class="prev center" onclick="prevImg()">&#10094;</a>
+        <div class="gallery-content">
+          <img src="img/photo2.jpg" alt="selfi3" draggable="false">
+          <img src="img/1.jpg" alt="game screen" draggable="false" />
+          <img src="img/3.jpg" alt="selfi2" draggable="false" />
+          <img src="img/2.jpg" alt="toy photo" draggable="false" />
+          <img src="img/photo.jpg" alt="selfi1" draggable="false" />
+        </div>
+        <div class="gallery-slides center"></div>
+        <a class="next center" onclick="nextImg()">&#10095;</a>
+      </article>
+     
+      <input type="checkbox" id="checkbox-personal-info" class="hide" checked/>
+      <label for="checkbox-personal-info">
+        <a id="personal-info"></a>
+        <h2>Personal info</h2>
+        <hr>
+      </label>
+  <article>
+  <table>
+    <tr>
+      <td><i>Name:</i></td>
+      <td>Bierdysheva Mariia Ivanovna</td>
+    </tr>
+    <tr>
+      <td><i>Gender:</i></td>
+      <td>Female</td>
+    </tr>
+    <tr>
+      <td><i>Age:</i></td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td><i>Current city:</i></td>
+      <td>Kharkiv, Ukraine</td>
+    </tr>
+    <tr>
+      <td><i>Email:</i></td>
+      <td>
+        <address>
+          <a href="mailto:mariia.bierdysheva@nure.ua">mariia.bierdysheva@nure.ua</a>
+        </address>
+      </td>
+    </tr>
+  </table>
+</article>
+
+<input type="checkbox" id="checkbox-education" class="hide" />
+<label for="checkbox-education">
+  <a id="education"></a>
+  <h2>Education</h2>
+  <hr>
+</label>
+<article>
+  <table>
+    <tr>
+      <td><i>Primary education:</i></dt>
+      <td>School №24</dt>
+      <td>2004-2011</td>
+    </tr>
+    <tr>
+      <td><i>Middle/High education:</i></dt>
+      <td>PML №27</dt>
+      <td>20011-2014</td>
+    </tr>
+    <tr>
+      <td>
+        <i>Middle professional education:</i>
+        </dt>
+        <td>Radio-engineering technical school</dt>
+          <td>2014-2018</td>
+    </tr>
+    <tr>
+
+      <td><i>Higher education:</i></td>
+      <td>KTURE, Computer Science</td>
+      <td>2018+</td>
+    </tr>
+  </table>
+  </article>
+
+<input type="checkbox" id="checkbox-language-skills" class="hide" />
+<label for="checkbox-language-skills">
+  <a id="language-skills"></a>
+  <h2>Language skills</h2>
+  <hr>
+</label>
+<article>
+  <table>
+    <tr>
+      <td><i>Russian:</i></td>
+      <td>Native language</td>
+    </tr>
+    <tr>
+      <td><i>Ukrainian:</i></td>
+      <td>Second language</td>
+    </tr>
+    <tr>
+      <td><i>English:</i></td>
+      <td>Intermediate</td>
+    </tr>
+  </table>
+</article>
+</section>
+
+  <script type="text/javascript" src="./js/index.js"></script>
+
+</body>
+</html>
