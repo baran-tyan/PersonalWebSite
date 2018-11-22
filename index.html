@@ -47,7 +47,17 @@
         <div class="gallery-slides center"></div>
         <a class="next center" onclick="nextImg()">&#10095;</a>
       </article>
-     
+    <article class="audio wrapper">
+      <div class="center">
+        <audio controls >
+          <source src="elf_lied.ogg" type="audio/ogg">
+          <source src="elf_lied.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+        </audio>
+      </div>
+    </article>
+
+    
+    
       <input type="checkbox" id="checkbox-personal-info" class="hide" checked/>
       <label for="checkbox-personal-info">
         <a id="personal-info"></a>
@@ -142,6 +152,13 @@
 </section>
 
   <script type="text/javascript" src="./js/index.js"></script>
+
+  <article class="canvas wrapper">
+  <div class="center">
+    <canvas id="canvas"></canvas>
+  </div>
+</article>
+
 
 </body>
 </html>
